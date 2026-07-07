@@ -20,15 +20,6 @@ Introduction
 
 /-- $a+n=b+n\implies a=b$. -/
 Statement add_right_cancel (a b n : ℕ) : a + n = b + n → a = b := by
-  Hint (hidden := true) "Start with induction on `n`."
-  induction n with d hd
-  intro h
-  repeat rw [add_zero] at h
-  exact h
-  intro h
-  repeat rw [add_succ] at h
-  apply succ_inj at h
-  apply hd at h
-  exact h
+  sorry
 
 Conclusion "Nice!"

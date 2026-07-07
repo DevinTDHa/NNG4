@@ -76,16 +76,6 @@ TheoremDoc MyNat.add_right_eq_zero as "add_right_eq_zero" in "+"
 
 /-- If $a+b=0$ then $a=0$. -/
 Statement add_right_eq_zero (a b : ℕ) : a + b = 0 → a = 0 := by
-  Hint "Here we want to deal with the cases `b = 0` and `b ≠ 0` separately,
-  so start with `cases b with d`."
-  cases b with d
-  intro h
-  rw [add_zero] at h
-  exact h
-  intro h
-  rw [add_succ] at h
-  symm at h
-  apply zero_ne_succ at h
-  cases h
+  sorry
 
 Conclusion "Well done!"

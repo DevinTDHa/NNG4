@@ -18,10 +18,7 @@ You can prove it by induction on `n` or you can deduce it from `add_right_cancel
 
 /-- $n+a=n+b\implies a=b$. -/
 Statement add_left_cancel (a b n : ℕ) : n + a = n + b → a = b := by
-  repeat rw [add_comm n]
-  intro h
-  apply add_right_cancel at h
-  exact h
+  sorry
 
 Conclusion
 "How about this for a proof:

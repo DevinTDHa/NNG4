@@ -18,10 +18,7 @@ Introduction
 
 /-- $x + y = y\implies x=0.$ -/
 Statement add_left_eq_self (x y : ℕ) : x + y = y → x = 0 := by
-  intro h
-  nth_rewrite 2 [← zero_add y] at h
-  apply add_right_cancel at h
-  exact h
+  sorry
 
 Conclusion "Did you use induction on `y`?
 Here's a two-line proof of `add_left_eq_self` which uses `add_right_cancel`.

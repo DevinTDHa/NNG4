@@ -18,8 +18,7 @@ TheoremDoc MyNat.add_left_eq_zero as "add_left_eq_zero" in "+"
 
 /-- If $a+b=0$ then $b=0$. -/
 Statement add_left_eq_zero (a b : ℕ) : a + b = 0 → b = 0 := by
-  rw [add_comm]
-  exact add_right_eq_zero b a
+  sorry
 
 Conclusion "How about this for a proof:
 
