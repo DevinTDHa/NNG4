@@ -43,7 +43,14 @@ TheoremDoc MyNat.zero_add as "zero_add" in "+"
 
 /-- For all natural numbers $n$, we have $0 + n = n$. -/
 Statement zero_add (n : ℕ) : 0 + n = n := by
-  sorry
+  induction n with d hd
+  -- case zero
+  rw [add_zero]
+  rfl
+  -- case d
+  rw [add_succ]
+  rw [hd]
+  rfl
 
 attribute [simp] zero_add
 
