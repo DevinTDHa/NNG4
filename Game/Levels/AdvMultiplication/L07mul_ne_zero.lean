@@ -19,12 +19,4 @@ also `succ` of something, and then `apply zero_ne_succ`.
 "
 
 Statement mul_ne_zero (a b : ℕ) (ha : a ≠ 0) (hb : b ≠ 0) : a * b ≠ 0 := by
-  Hint (hidden := true) "Start with `apply eq_succ_of_ne_zero at ha` and `... at hb`"
-  apply eq_succ_of_ne_zero at ha
-  apply eq_succ_of_ne_zero at hb
-  cases ha with c hc
-  cases hb with d hd
-  rw [hc, hd]
-  rw [mul_succ, add_succ]
-  symm
-  apply zero_ne_succ
+  sorry

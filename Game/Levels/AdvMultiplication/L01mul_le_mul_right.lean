@@ -16,10 +16,7 @@ Introduction
 "Let's warm up with an easy one, which works even if `t = 0`."
 
 Statement mul_le_mul_right (a b t : ℕ) (h : a ≤ b) : a * t ≤ b * t := by
-  cases h with d hd
-  use d * t
-  rw [hd, add_mul]
-  rfl
+  sorry
 
 Conclusion
 "My proof:

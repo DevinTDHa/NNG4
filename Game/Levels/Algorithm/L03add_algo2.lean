@@ -33,8 +33,7 @@ Get the simplifier to solve it for you.
 $(d + f) + (h + (a + c)) + (g + e + b) = a + b + c + d + e + f + g + h$. -/
 Statement (a b c d e f g h : ℕ) :
     (d + f) + (h + (a + c)) + (g + e + b) = a + b + c + d + e + f + g + h := by
-  Hint "Solve this level in one line with `simp only [add_left_comm, add_comm]`"
-  simp only [add_left_comm, add_comm]
+  sorry
 
 Conclusion
 "

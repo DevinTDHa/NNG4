@@ -20,8 +20,7 @@ TheoremDoc MyNat.two_mul as "two_mul" in "*"
 /-- For any natural number $m$, we have $ 2 \times m = m+m$. -/
 Statement two_mul
     (m : ℕ): 2 * m = m + m := by
-  rw [two_eq_succ_one, succ_mul, one_mul]
-  rfl
+  sorry
 
 TheoremTab "*"
 

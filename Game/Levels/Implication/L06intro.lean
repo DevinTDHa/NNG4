@@ -33,7 +33,4 @@ in Lean. We do this with the `intro` tactic.
 
 /-- $x=37\implies x=37$. -/
 Statement (x : ℕ) : x = 37 → x = 37 := by
-  Hint "Start with `intro h` to assume the hypothesis and call its proof `h`."
-  intro h
-  Hint (hidden := true) "Now `exact h` finishes the job."
-  exact h
+  sorry

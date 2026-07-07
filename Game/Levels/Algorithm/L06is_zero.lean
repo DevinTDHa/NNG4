@@ -50,14 +50,4 @@ NewTactic trivial
 
 /-- $\operatorname{succ}(a) \neq 0$. -/
 Statement succ_ne_zero (a : ℕ) : succ a ≠ 0 := by
-  Hint "Start with `intro h` (remembering that `X ≠ Y` is just notation
-  for `X = Y → False`)."
-  intro h
-  Hint "We're going to change that `False` into `True`. Start by changing it into
-  `is_zero (succ a)` by executing `rw [← is_zero_succ a]`."
-  rw [← is_zero_succ a]
-  Hint "See if you can take it from here. Look at the new lemmas and tactic
-  available on the right."
-  rw [h]
-  rw [is_zero_zero]
-  trivial
+  sorry

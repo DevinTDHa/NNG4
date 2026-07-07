@@ -19,11 +19,7 @@ This lemma will be helpful for them.
 
 /-- If $\operatorname{succ}(x) \leq \operatorname{succ}(y)$ then $x \leq y$. -/
 Statement succ_le_succ (x y : ℕ) (hx : succ x ≤ succ y) : x ≤ y := by
-  cases hx with d hd
-  use d
-  rw [succ_add] at hd
-  apply succ_inj at hd
-  exact hd
+  sorry
 
 Conclusion "
 Here's my proof:

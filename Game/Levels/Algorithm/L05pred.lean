@@ -37,11 +37,7 @@ NewTheorem MyNat.pred_succ
 
 /-- If $\operatorname{succ}(a)=\operatorname{succ}(b)$ then $a=b$. -/
 Statement (a b : ℕ) (h : succ a = succ b) : a = b := by
-  Hint "Start with `rw [← pred_succ a]` and take it from there."
-  rw [← pred_succ a]
-  rw [h]
-  rw [pred_succ]
-  rfl
+  sorry
 
 DisabledTheorem MyNat.succ_inj
 

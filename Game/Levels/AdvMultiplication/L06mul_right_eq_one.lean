@@ -64,23 +64,4 @@ We'll prove it using a new and very useful tactic called `have`.
 "
 
 Statement mul_right_eq_one (x y : ℕ) (h : x * y = 1) : x = 1 := by
-  Hint (strict := true) "We want to use `le_mul_right`, but we need a hypothesis `x * y ≠ 0`
-  which we don't have. Yet. Execute `have h2 : x * y ≠ 0` (you can type `≠` with `\\ne`).
-  You'll be asked to
-  prove it, and then you'll have a new hypothesis which you can apply
-  `le_mul_right` to."
-  have h2 : x * y ≠ 0
-  rw [h]
-  exact one_ne_zero
-  Hint (hidden := true) "Now you can `apply le_mul_right at h2`."
-  apply le_mul_right at h2
-  Hint (hidden := true) "Now `rw [{h}] at {h2}` so you can `apply le_one at {h2}`."
-  rw [h] at h2
-  apply le_one at h2
-  Hint (hidden := true) "Now `cases h2 with h0 h1` and deal with the two
-  cases separately."
-  cases h2 with h0 h1
-  · rw [h0, zero_mul] at h
-    Hint (hidden := true) "`tauto` is good enough to solve this goal."
-    tauto
-  · exact h1
+  sorry

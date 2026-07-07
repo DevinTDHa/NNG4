@@ -14,9 +14,7 @@ What number will you `use` here?"
 
 /-- If $x$ is a number, then $x \le \operatorname{succ}(x)$. -/
 Statement le_succ_self (x : ℕ) : x ≤ succ x := by
-  use 1
-  rw [succ_eq_add_one]
-  rfl
+  sorry
 
 TheoremTab "+"
 

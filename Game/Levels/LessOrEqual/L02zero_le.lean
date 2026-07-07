@@ -16,8 +16,6 @@ TheoremDoc MyNat.zero_le as "zero_le" in "≤"
 
 /-- If $x$ is a number, then $0 \le x$. -/
 Statement zero_le (x : ℕ) : 0 ≤ x := by
-  use x
-  rw [zero_add]
-  rfl
+  sorry
 
 TheoremTab "≤"

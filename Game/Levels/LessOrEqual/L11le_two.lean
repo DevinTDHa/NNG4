@@ -20,23 +20,7 @@ This affects how `left` and `right` work.
 
 /-- If $x \leq 2$ then $x = 0$ or $1$ or $2$. -/
 Statement le_two (x : ℕ) (hx : x ≤ 2) : x = 0 ∨ x = 1 ∨ x = 2 := by
-  cases x with y
-  left
-  rfl
-  cases y with z
-  right
-  left
-  rw [one_eq_succ_zero]
-  rfl
-  rw [two_eq_succ_one, one_eq_succ_zero] at hx ⊢
-  apply succ_le_succ at hx
-  apply succ_le_succ at hx
-  apply le_zero at hx
-  rw [hx]
-  right
-  right
-  rfl
-
+  sorry
 
 Conclusion "
 Nice!

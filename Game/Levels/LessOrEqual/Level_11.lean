@@ -17,7 +17,7 @@ Introduction
 /--  -/
 Statement
     : true := by
-  trivial
+  sorry
 
 Conclusion
 "

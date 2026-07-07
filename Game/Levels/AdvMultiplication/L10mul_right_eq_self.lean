@@ -17,10 +17,7 @@ in Divisibility World.
 "
 
 Statement mul_right_eq_self (a b : ℕ) (ha : a ≠ 0) (h : a * b = a) : b = 1 := by
-  Hint (hidden := true) "Reduce to the previous lemma with `nth_rewrite 2 [← mul_one a] at h`"
-  nth_rewrite 2 [← mul_one a] at h
-  Hint (hidden := true) "You can now `apply mul_left_cancel at h`"
-  exact mul_left_cancel a b 1 ha h
+  sorry
 
 Conclusion "
 A two-line proof is

@@ -28,26 +28,4 @@ because we now have the flexibility to change `c`.
 "
 
 Statement mul_left_cancel (a b c : ℕ) (ha : a ≠ 0) (h : a * b = a * c) : b = c := by
-  Hint "The way to start this proof is `induction b with d hd generalizing c`."
-  induction b with d hd generalizing c
-  · Hint (hidden := true) "Use `mul_eq_zero` and remember that `tauto` will solve a goal
-  if there are hypotheses `a = 0` and `a ≠ 0`."
-    rw [mul_zero] at h
-    symm at h
-    apply mul_eq_zero at h
-    cases h with h1 h2
-    · tauto
-    · rw [h2]
-      rfl
-  · Hint "The inductive hypothesis `hd` is \"For all natural numbers `c`, `a * d = a * c → d = c`\".
-    You can `apply` it `at` any hypothesis of the form `a * d = a * ?`."
-    Hint (hidden := true) "Split into cases `c = 0` and `c = succ e` with `cases c with e`."
-    cases c with e
-    · rw [mul_succ, mul_zero] at h
-      apply add_left_eq_zero at h
-      tauto
-    · rw [mul_succ, mul_succ] at h
-      apply add_right_cancel at h
-      apply hd at h
-      rw [h]
-      rfl
+  sorry

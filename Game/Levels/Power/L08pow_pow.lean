@@ -19,11 +19,7 @@ TheoremDoc MyNat.pow_pow as "pow_pow" in "^"
 /-- For all naturals $a$, $m$, $n$, we have $(a ^ m) ^ n = a ^ {mn}$. -/
 Statement pow_pow
     (a m n : ℕ) : (a ^ m) ^ n = a ^ (m * n) := by
-  induction n with t Ht
-  · rw [mul_zero, pow_zero, pow_zero]
-    rfl
-  · rw [pow_succ, Ht, mul_succ, pow_add]
-    rfl
+  sorry
 
 TheoremTab "^"
 

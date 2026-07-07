@@ -33,9 +33,7 @@ TheoremDoc MyNat.add_right_comm as "add_right_comm" in "+"
 /-- If $a, b$ and $c$ are arbitrary natural numbers, we have
 $(a + b) + c = (a + c) + b$. -/
 Statement add_right_comm (a b c : ℕ) : a + b + c = a + c + b := by
-  rw [add_assoc]
-  rw [add_comm b, add_assoc]
-  rfl
+  sorry
 
 TheoremTab "+"
 

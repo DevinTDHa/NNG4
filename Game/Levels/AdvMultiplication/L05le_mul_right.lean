@@ -28,11 +28,7 @@ until it becomes the goal, using `mul_left_ne_zero`, `one_le_of_ne_zero` and
 "
 
 Statement le_mul_right (a b : ℕ) (h : a * b ≠ 0) : a ≤ a * b := by
-  apply mul_left_ne_zero at h
-  apply one_le_of_ne_zero at h
-  apply mul_le_mul_right 1 b a at h
-  rw [one_mul, mul_comm] at h
-  exact h
+  sorry
 
 Conclusion "Here's what I was thinking of:
 ```

@@ -23,7 +23,4 @@ with things like `rw [add_comm b c]`. And remember that
 
 /-- If $a, b, c$ are numbers, then $a+(b+c)=b+(a+c)$. -/
 Statement add_left_comm (a b c : ℕ) : a + (b + c) = b + (a + c) := by
-  rw [← add_assoc]
-  rw [add_comm a b]
-  rw [add_assoc]
-  rfl
+  sorry

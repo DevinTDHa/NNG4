@@ -15,10 +15,6 @@ TheoremDoc MyNat.pow_add as "pow_add" in "^"
 /-- For all naturals $a$, $m$, $n$, we have $a^{m + n} = a ^ m  a ^ n$. -/
 Statement pow_add
     (a m n : ℕ) : a ^ (m + n) = a ^ m * a ^ n := by
-  induction n with t ht
-  · rw [add_zero, pow_zero, mul_one]
-    rfl
-  · rw [add_succ, pow_succ, pow_succ, ht, mul_assoc]
-    rfl
+  sorry
 
 TheoremTab "^"

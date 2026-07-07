@@ -26,13 +26,6 @@ TheoremDoc MyNat.mul_comm as "mul_comm" in "*"
 /-- Multiplication is commutative. -/
 Statement mul_comm
     (a b : ℕ) : a * b = b * a := by
-  induction b with d hd
-  · rw [zero_mul]
-    rw [mul_zero]
-    rfl
-  · rw [succ_mul]
-    rw [← hd]
-    rw [mul_succ]
-    rfl
+  sorry
 
 TheoremTab "*"

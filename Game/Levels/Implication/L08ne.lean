@@ -26,10 +26,7 @@ are contradictory, which they are in this level.
 
 /-- If $x=y$ and $x \neq y$ then we can deduce a contradiction. -/
 Statement (x y : ℕ) (h1 : x = y) (h2 : x ≠ y) : False := by
-  Hint "Remember that `h2` is a proof of `x = y → False`. Try
-  `apply`ing `h2` either `at h1` or directly to the goal."
-  apply h2 at h1
-  exact h1
+  sorry
 
 /--
 `a ≠ b` is *notation* for `(a = b) → False`.

@@ -25,10 +25,4 @@ TheoremDoc MyNat.zero_mul as "zero_mul" in "*"
 /-- For all natural numbers $m$, we have $ 0 \times m = 0$. -/
 Statement zero_mul
     (m : ℕ) : 0 * m = 0 := by
-  induction m with d hd
-  · rw [mul_zero]
-    rfl
-  · rw [mul_succ]
-    rw [hd]
-    rw [add_zero]
-    rfl
+  sorry

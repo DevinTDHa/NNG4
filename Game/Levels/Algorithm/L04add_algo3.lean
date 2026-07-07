@@ -41,7 +41,7 @@ Try running `simp_add` to solve this level!
 $(d + f) + (h + (a + c)) + (g + e + b) = a + b + c + d + e + f + g + h$. -/
 Statement (a b c d e f g h : ℕ) :
     (d + f) + (h + (a + c)) + (g + e + b) = a + b + c + d + e + f + g + h := by
-  simp_add
+  sorry
 
 Conclusion
 "

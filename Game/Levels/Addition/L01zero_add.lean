@@ -43,26 +43,7 @@ TheoremDoc MyNat.zero_add as "zero_add" in "+"
 
 /-- For all natural numbers $n$, we have $0 + n = n$. -/
 Statement zero_add (n : ℕ) : 0 + n = n := by
-  Hint "You can start a proof by induction on `n` by typing:
-  `induction n with d hd`."
-  induction n with d hd
-  · Hint "Now you have two goals. Once you proved the first, you will jump to the second one.
-    This first goal is the base case $n = 0$.
-
-    Recall that you can rewrite the proof of any lemma which is visible
-    in your inventory, or of any assumption displayed above the goal,
-    as long as it is of the form `X = Y`."
-    Hint (hidden := true) "try rewriting `add_zero`."
-    rw [add_zero]
-    rfl
-  · Hint "Now for the second goal. Here you have the induction hypothesis
-    `{hd} : 0 + {d} = {d}`, and you need to prove that `0 + succ {d} = succ {d}`."
-    Hint (hidden := true) "Use `add_succ`."
-    rw [add_succ]
-    Hint (hidden := true) "At this point you see the term `0 + {d}`, so you can use the
-    induction hypothesis with `rw [{hd}]`."
-    rw [hd]
-    rfl
+  sorry
 
 attribute [simp] zero_add
 

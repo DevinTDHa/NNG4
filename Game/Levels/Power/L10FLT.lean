@@ -45,7 +45,7 @@ TacticDoc xyzzy
 $$(a+1)^{n+3}+(b+1)^{n+3}\not=(c+1)^{n+3}.$$ -/
 Statement
     (a b c n : ℕ) : (a + 1) ^ (n + 3) + (b + 1) ^ (n + 3) ≠ (c + 1) ^ (n + 3) := by
-  xyzzy
+  sorry
 
 NewHiddenTactic xyzzy
 

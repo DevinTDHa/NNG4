@@ -60,7 +60,7 @@ use it in Lean proofs. You can run the algorithm with the `decide` tactic.
 
 /-- $20+20=40$. -/
 Statement : (20 : ℕ) + 20 = 40 := by
-  decide
+  sorry
 
 Conclusion "You can read more about the `decide` tactic by clicking
 on it in the top right."

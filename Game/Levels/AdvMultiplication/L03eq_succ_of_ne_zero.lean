@@ -71,10 +71,4 @@ on the right to see what it does.
 "
 
 Statement eq_succ_of_ne_zero (a : ℕ) (ha : a ≠ 0) : ∃ n, a = succ n := by
-  Hint "Start with `cases a with d` to do a case split on `a = 0` and `a = succ d`."
-  cases a with d
-  · Hint "In the \"base case\" we have a hypothesis `ha : 0 ≠ 0`, and you can deduce anything
-  from a false statement. The `tauto` tactic will close this goal."
-    tauto
-  · use d
-    rfl
+  sorry

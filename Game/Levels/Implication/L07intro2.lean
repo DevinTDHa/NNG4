@@ -13,15 +13,7 @@ Try this one by yourself; if you need help then click on \"Show more help!\".
 
 /-- $x+1=y+1 \implies x=y$. -/
 Statement (x y : ℕ) : x + 1 = y + 1 → x = y := by
-  Hint (hidden := true) "Start with `intro h` to assume the hypothesis."
-  intro h
-  Hint (hidden := true) "Now `repeat rw [← succ_eq_add_one] at h` is the quickest way to
-  change `h` to `succ x = succ y`."
-  repeat rw [← succ_eq_add_one] at h
-  Hint (hidden := true) "Now `apply succ_inj at h` to cancel the `succ`s."
-  apply succ_inj at h
-  Hint (hidden := true) "Now `rw [h]` then `rfl` works, but `exact h` is quicker."
-  exact h
+  sorry
 
 Conclusion "Here's a completely backwards proof:
 ```

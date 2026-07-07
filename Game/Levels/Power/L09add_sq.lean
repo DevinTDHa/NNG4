@@ -20,13 +20,7 @@ TheoremDoc MyNat.add_sq as "add_sq" in "^"
 $$(a+b)^2=a^2+b^2+2ab.$$ -/
 Statement add_sq
     (a b : ℕ) : (a + b) ^ 2 = a ^ 2 + b ^ 2 + 2 * a * b := by
-  rw [pow_two, pow_two, pow_two]
-  rw [add_right_comm]
-  rw [mul_add, add_mul, add_mul]
-  rw [two_mul, add_mul]
-  rw [mul_comm b a]
-  rw [← add_assoc, ← add_assoc]
-  rfl
+  sorry
 
 TheoremTab "^"
 

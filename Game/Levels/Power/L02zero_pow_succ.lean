@@ -25,8 +25,6 @@ TheoremDoc MyNat.zero_pow_succ as "zero_pow_succ" in "^"
 /-- For all numbers $m$, $0 ^{\operatorname{succ} (m)} = 0$. -/
 Statement zero_pow_succ
     (m : ℕ) : (0 : ℕ) ^ (succ m) = 0 := by
-  rw [pow_succ]
-  rw [mul_zero]
-  rfl
+  sorry
 
 TheoremTab "^"

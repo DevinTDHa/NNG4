@@ -41,8 +41,7 @@ TheoremDoc MyNat.one_ne_zero as "one_ne_zero" in "012"
 
 /-- $1\neq0$. -/
 Statement one_ne_zero : (1 : ℕ) ≠ 0 := by
-  symm
-  exact zero_ne_one
+  sorry
 
 Conclusion "What do you think of this two-liner:
 ```

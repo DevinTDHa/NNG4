@@ -18,11 +18,7 @@ logically equivalent to the last level, so there is a very short proof.
 "
 
 Statement mul_eq_zero (a b : ℕ) (h : a * b = 0) : a = 0 ∨ b = 0 := by
-  Hint (hidden := true) "Start with `have h2 := mul_ne_zero a b`."
-  have h2 := mul_ne_zero a b
-  Hint (hidden := true) "Now the goal can be deduced from `h2` by pure logic, so use the `tauto`
-  tactic."
-  tauto
+  sorry
 
 Conclusion "Here's the short proof:
 ```

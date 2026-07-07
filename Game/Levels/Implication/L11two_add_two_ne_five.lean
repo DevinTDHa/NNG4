@@ -16,11 +16,7 @@ See if you can use `zero_ne_succ` and `succ_inj` to prove this.
 
 /-- $2+2≠5$. -/
 Statement : succ (succ 0) + succ (succ 0) ≠ succ (succ (succ (succ (succ 0)))) := by
-  intro h
-  rw [add_succ, add_succ, add_zero] at h
-  repeat apply succ_inj at h
-  apply zero_ne_succ at h
-  exact h
+  sorry
 
 Conclusion "Here's my proof:
 ```

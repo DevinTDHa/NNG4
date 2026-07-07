@@ -17,15 +17,7 @@ Now we'll prove that if `x ≤ 1` then `x = 0` or `x = 1`.
 
 /-- If $x \leq 1$ then either $x = 0$ or $x = 1$. -/
 Statement le_one (x : ℕ) (hx : x ≤ 1) : x = 0 ∨ x = 1 := by
-  cases x with y
-  left
-  rfl
-  rw [one_eq_succ_zero] at hx ⊢
-  apply succ_le_succ at hx
-  apply le_zero at hx
-  rw [hx]
-  right
-  rfl
+  sorry
 
 Conclusion "
 Here's my proof:

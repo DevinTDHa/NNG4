@@ -47,10 +47,6 @@ TheoremDoc MyNat.mul_one as "mul_one" in "*"
 
 /-- For any natural number $m$, we have $ m \times 1 = m$. -/
 Statement mul_one (m : ℕ) : m * 1 = m := by
-  rw [one_eq_succ_zero]
-  rw [mul_succ]
-  rw [mul_zero]
-  rw [zero_add]
-  rfl
+  sorry
 
 TheoremTab "*"

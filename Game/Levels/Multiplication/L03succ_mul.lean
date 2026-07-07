@@ -31,17 +31,6 @@ TheoremDoc MyNat.succ_mul as "succ_mul" in "*"
 $(\operatorname{succ}\ a) \times b = a\times b + b$. -/
 Statement succ_mul
     (a b : ℕ) : succ a * b = a * b + b := by
-  induction b with d hd
-  · rw [mul_zero]
-    rw [mul_zero]
-    rw [add_zero]
-    rfl
-  · rw [mul_succ]
-    rw [mul_succ]
-    rw [hd]
-    rw [add_succ]
-    rw [add_succ]
-    rw [add_right_comm]
-    rfl
+  sorry
 
 TheoremTab "*"

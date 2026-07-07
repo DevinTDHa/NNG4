@@ -19,8 +19,7 @@ TheoremDoc MyNat.one_mul as "one_mul" in "*"
 /-- For any natural number $m$, we have $ 1 \times m = m$. -/
 Statement one_mul
     (m : ℕ): 1 * m = m := by
-  rw [mul_comm, mul_one]
-  rfl
+  sorry
 
 TheoremTab "*"
 

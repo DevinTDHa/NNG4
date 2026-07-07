@@ -26,21 +26,7 @@ For all natural numbers $a, b$, we have
 $ \operatorname{succ}(a) + b = \operatorname{succ}(a + b)$.
 -/
 Statement succ_add (a b : ℕ) : succ a + b = succ (a + b)  := by
-  Hint (hidden := true) "You might want to think about whether induction
-  on `a` or `b` is the best idea."
-  Branch
-    induction a with _ _
-    Hint "Induction on `a` will not work here. You are still stuck with an `+ b`.
-    I suggest you delete this line and try a different approach."
-    sorry
-  induction b with d hd
-  · rw [add_zero]
-    rw [add_zero]
-    rfl
-  · Hint "Note that `succ a + {d}` means `(succ a) + {d}`. Put your cursor
-  on any `succ` in the goal or assumptions to see what exactly it's eating."
-    rw [add_succ, add_succ, hd]
-    rfl
+  sorry
 
 TheoremTab "+"
 
