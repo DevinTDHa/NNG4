@@ -1,3 +1,4 @@
+import Game.Solutions.AlgorithmWorld
 import Game.Levels.Algorithm.L06is_zero
 
 World "Algorithm"

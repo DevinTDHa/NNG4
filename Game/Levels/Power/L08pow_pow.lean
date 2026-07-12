@@ -1,3 +1,4 @@
+import Game.Solutions.PowerWorld
 import Game.Levels.Power.L07mul_pow
 
 World "Power"

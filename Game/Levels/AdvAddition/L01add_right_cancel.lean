@@ -1,5 +1,6 @@
 import Game.Levels.Implication
 import Game.Levels.Algorithm
+import Game.Solutions.AdvAdditionWorld
 
 World "AdvAddition"
 Level 1

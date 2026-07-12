@@ -1,3 +1,4 @@
+import Game.Solutions.AdvMultiplicationWorld
 import Game.Levels.AdvMultiplication.L08mul_eq_zero
 
 World "AdvMultiplication"

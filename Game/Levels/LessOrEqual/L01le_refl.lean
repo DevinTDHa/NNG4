@@ -2,6 +2,7 @@ import Game.Metadata
 import Game.MyNat.LE
 import Game.Tactic.Use
 import Game.Levels.AdvAddition
+import Game.Solutions.LessOrEqualWorld
 
 World "LessOrEqual"
 Level 1

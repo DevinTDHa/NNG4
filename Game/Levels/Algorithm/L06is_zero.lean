@@ -1,3 +1,4 @@
+import Game.Solutions.AlgorithmWorld
 import Game.Levels.Algorithm.L05pred
 
 World "Algorithm"

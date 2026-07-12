@@ -1,3 +1,4 @@
+import Game.Solutions.AdvMultiplicationWorld
 import Game.Levels.AdvMultiplication.L09mul_left_cancel
 
 World "AdvMultiplication"

@@ -1,3 +1,4 @@
+import Game.Solutions.AdvAdditionWorld
 import Game.Levels.AdvAddition.L04add_right_eq_self
 import Game.Tactic.Cases
 

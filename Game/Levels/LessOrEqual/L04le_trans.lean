@@ -1,3 +1,4 @@
+import Game.Solutions.LessOrEqualWorld
 import Game.Levels.LessOrEqual.L03le_succ_self
 
 World "LessOrEqual"

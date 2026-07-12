@@ -1,5 +1,6 @@
 import Game.Metadata
 import Game.MyNat.Addition
+import Game.Solutions.AdditionWorld
 import Game.Levels.Tutorial
 -- note that
 -- import Game.Levels.Tutorial.L05add_succ

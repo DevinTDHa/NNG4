@@ -1,3 +1,4 @@
+import Game.Solutions.AdvMultiplicationWorld
 import Game.Levels.AdvMultiplication.L06mul_right_eq_one
 
 World "AdvMultiplication"

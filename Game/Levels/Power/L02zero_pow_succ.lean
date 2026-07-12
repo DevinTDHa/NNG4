@@ -1,3 +1,4 @@
+import Game.Solutions.PowerWorld
 import Game.Levels.Power.L01zero_pow_zero
 
 World "Power"

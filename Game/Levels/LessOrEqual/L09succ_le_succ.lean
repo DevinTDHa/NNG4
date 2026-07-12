@@ -1,3 +1,4 @@
+import Game.Solutions.LessOrEqualWorld
 import Game.Levels.LessOrEqual.L08le_total
 
 World "LessOrEqual"

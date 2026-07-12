@@ -1,5 +1,6 @@
 import Game.Levels.Multiplication
 import Game.MyNat.Power
+import Game.Solutions.PowerWorld
 
 
 World "Power"

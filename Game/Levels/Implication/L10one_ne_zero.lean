@@ -1,3 +1,4 @@
+import Game.Solutions.ImplicationWorld
 import Game.Levels.Implication.L09zero_ne_succ
 World "Implication"
 Level 10

@@ -1,5 +1,6 @@
 import Game.Levels.LessOrEqual
 import Game.Levels.Multiplication
+import Game.Solutions.AdvMultiplicationWorld
 
 World "AdvMultiplication"
 Level 1

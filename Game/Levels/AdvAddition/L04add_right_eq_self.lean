@@ -1,3 +1,4 @@
+import Game.Solutions.AdvAdditionWorld
 import Game.Levels.AdvAddition.L03add_left_eq_self
 
 World "AdvAddition"

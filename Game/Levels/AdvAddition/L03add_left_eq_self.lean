@@ -1,3 +1,4 @@
+import Game.Solutions.AdvAdditionWorld
 import Game.Levels.AdvAddition.L02add_left_cancel
 
 World "AdvAddition"

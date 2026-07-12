@@ -1,5 +1,6 @@
 import Game.Metadata
 import Game.MyNat.Addition
+import Game.Solutions.TutorialWorld
 import Game.Levels.Tutorial.L03two_eq_ss0
 
 World "Tutorial"

@@ -1,3 +1,4 @@
+import Game.Solutions.AdvMultiplicationWorld
 import Game.Levels.AdvMultiplication.L02mul_left_ne_zero
 
 World "AdvMultiplication"

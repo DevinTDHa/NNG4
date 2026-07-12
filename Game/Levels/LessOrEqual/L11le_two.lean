@@ -1,3 +1,4 @@
+import Game.Solutions.LessOrEqualWorld
 import Game.Levels.LessOrEqual.L10le_one
 World "LessOrEqual"
 Level 11

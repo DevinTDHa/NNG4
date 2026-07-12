@@ -1,3 +1,4 @@
+import Game.Solutions.LessOrEqualWorld
 import Game.Levels.LessOrEqual.L09succ_le_succ
 World "LessOrEqual"
 Level 10

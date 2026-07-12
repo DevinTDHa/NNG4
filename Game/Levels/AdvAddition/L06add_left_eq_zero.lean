@@ -1,3 +1,4 @@
+import Game.Solutions.AdvAdditionWorld
 import Game.Levels.AdvAddition.L05add_right_eq_zero
 
 World "AdvAddition"

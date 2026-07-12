@@ -1,5 +1,6 @@
 import Game.Levels.Addition
 import Game.MyNat.Multiplication
+import Game.Solutions.MultiplicationWorld
 
 World "Multiplication"
 Level 1

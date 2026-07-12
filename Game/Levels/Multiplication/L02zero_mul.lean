@@ -1,3 +1,4 @@
+import Game.Solutions.MultiplicationWorld
 import Game.Levels.Multiplication.L01mul_one
 
 World "Multiplication"

@@ -1,3 +1,4 @@
+import Game.Solutions.AdditionWorld
 import Game.Levels.Addition.L04add_assoc
 
 World "Addition"

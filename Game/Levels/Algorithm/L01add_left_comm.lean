@@ -1,4 +1,5 @@
 import Game.Levels.Addition
+import Game.Solutions.AlgorithmWorld
 
 World "Algorithm"
 Level 1
